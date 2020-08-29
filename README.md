@@ -2,7 +2,7 @@
 CodeDay Summer 2020
 
 ### Communication Scheme
-Lock <---> Receiver <---> AzureSphere
+Lock <---> Receiver <---> AzureSphere <--> Azure IoT Cloud <--> WixWebsite
 
 ### ArduinoLock/lock/lock.ino
 - code for the actual lock with RFID and RF capabilities to open/close a lock via a relay
