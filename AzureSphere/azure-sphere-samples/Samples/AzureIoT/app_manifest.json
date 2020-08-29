@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureIoT",
+  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": ["--ConnectionType", "Direct", "--Hostname", "hubz.azure-devices.net", "--DeviceID", "70cab705d88c51a54768e03cc75b61044a3cde949192692aba6a7c8da34c8d883e4cfc43b68e77ad5a12ef79212932e29bebc5973a5ce7c22e4f9706bb418fb7"],
+  "Capabilities": {
+    "AllowedConnections": [ "hubz.azure-devices.net" ],
+    "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_LED", "$SAMPLE_DEVICE_STATUS_LED", "$SAMPLE_RGBLED_GREEN" ],
+    "DeviceAuthentication": "036a6030-dd20-4081-98cd-c16de4def81d",
+    "SpiMaster": [ "$SAMPLE_LSM6DS3_SPI" ]
+  },
+    "ApplicationType": "Default"
+  }
