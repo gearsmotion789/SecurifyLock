@@ -13,7 +13,7 @@ Lock <---> Receiver <---> AzureSphere
 - also sends data to lock to open/close
 - forwards/receives data by Azure Sphere over SPI communication
 
-### AzureSphere/azure-sphere-samples/Samples/AzureIoT/main.c
+### AzureSphere/Samples/AzureIoT/main.c
 - receives data sent by the receiver indicating wheter it is open/close
 - also sends data to receiver to open/close
 - forwards/receives data by Azure IoT Cloud over WiFi
